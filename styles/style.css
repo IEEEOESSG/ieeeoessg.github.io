@@ -56,7 +56,7 @@ header nav ul li a {
     color: #fff;
     float: right;
     line-height: 50px;
-    font-size: 2.0em;
+    font-size: 32px;
     cursor: pointer;
     display: none;
     padding: 25px;
@@ -87,6 +87,15 @@ header nav ul li a {
     }
     header nav ul li a {
         border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+}
+
+@media (max-width: 400px) {
+    header .logo img {
+        padding: 30px;
+        height: 40px;
+        line-height: 40px;
+        float: left;
     }
 }
 
@@ -310,13 +319,13 @@ h2 {
 #sponsors {
     display: block;
     text-align: center;
-    margin: 0 150px;
+    margin: 0 80px;
 }
 
 #sponsors img{
-    height: 50px;
+    height: 35px;
     width: auto;
-    padding: 15px;
+    padding: 10px;
 }
 
 #useful_links {
@@ -331,7 +340,7 @@ h2 {
 }
 
 #useful_links li {
-    font-size: 30px;
+    font-size: 25px;
     list-style: none;
 }
 
@@ -339,7 +348,7 @@ h2 {
     display: inline-block;
     text-decoration: none;
     color: black;
-    padding: 0 0 30px 0;
+    padding: 0 0 20px 0;
     font-variant: small-caps;
     font-family: sans-serif;
 }
@@ -372,7 +381,6 @@ h2 {
 
 #contact_us .menu li {
     display: inline;
-    font-size: 50px;
     transition: 0.5s;
 }
 
@@ -381,7 +389,20 @@ h2 {
     text-decoration: none;
     color: #fff;
     padding: 20px;
+    font-size: 50px;
     font-variant: small-caps;
     font-family: sans-serif;
     transition: 0.5s;
+}
+
+@media (max-width: 500px) {
+    #contact_us .ieee img {
+        padding: 30px;
+        height: 40px;
+    }
+
+    #contact_us .menu li a {
+        padding: 30px 10px;
+        font-size: 32px;
+    }
 }
