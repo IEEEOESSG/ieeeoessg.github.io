@@ -143,17 +143,17 @@ h2 {
     }
 }
 
-#news {
+#announcements {
     margin: 0 75px;
 }
 
-#news ul{
+#announcements ul{
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-#news li {
+#announcements li {
     font-family: Times;
     text-align: center;
     font-size: 20px;
@@ -162,7 +162,7 @@ h2 {
     margin: 1.5em 0;
 }
 
-#news li a{
+#announcements li a{
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
@@ -170,7 +170,7 @@ h2 {
     word-break: break-all;
 }
 
-#news li a:hover {
+#announcements li a:hover {
     text-decoration: underline;
 }
 
