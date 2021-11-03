@@ -1,363 +1,368 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <title>IEEE Oceanic Engineering Society Singapore Chapter</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap test</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <script type="text/javascript" src="scripts/script.js"></script>
-  <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://kit.fontawesome.com/594e562da6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<!--
-  <div class="banner">
-    <img class="banner-image" src="images/banner.png">
-  </div>
--->
-  <header>
-    <div class="logo"><img class="logo-image" src="images/oes.png" alt="oes logo"></div>
-    <nav>
-      <ul class="menu">
-        <li><a href="index.html" class="active">home</a></li>
-        <li><a href="#announcements">announcements</a></li>
-        <li><a href="#earthzine">earthzine</a></li>
-        <li><a href="#activities">activities</a></li>
-        <li><a href="#committee">committee</a></li>
-        <li><a href="#sponsors">sponsors</a></li>
-        <li><a href="#useful_links">useful links</a></li>
-<!--        <li><a href="#contact_us">contact us</a></li> -->
-      </ul>
-    </nav>
-    <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
-  </header>
-
-  <section id="about">
-    <div id="mission">
-      <h2>Mission</h2>
-      <p>To bring the various ocean engineering skills and resources of the many
-relevant groups in Singapore academia and industry together with a common
-aim to create new opportunities for all involved in the underwater technology arena.</p>
-    </div>
-    <div id="goal">
-      <h2>Goal</h2>
-      <p>To network, collaborate and raise awareness of Singapore as a regional hub
-of excellence in marine technology, focused on promoting Ocean Engineering
-related conference and exhibition in Singapore.</p>
-    </div>
-  </section>
-
-  <section id="announcements">
-    <h1>Announcements</h1>
-      <ul>
-        <li><a href="https://ieeeoes.org/technical-activities/shyam-madhusudhana-virtual-talk-machine-learning-in-marine-bioacoustics/" class="active">Recently concluded webinar on "Machine learning in marine bioacoustics" by Shyam Madhusudhana, Cornell Lab of Ornithology, Cornell University, USA.</a></li>
-        <li><a href="#activities" class="active" target="_blank">Recently concluded Distinguished Lecture webinar on "Multicarrier Acoustic Communication in Doppler–limited Regimes" by Milica Stojanovic, Northeastern University.</a></li>
-        <li><a href="#activities" class="active">Recently concluded webinar on "Introduction to machine learning in acoustics: theory and applications" by Michael Bianco, Scripps Institution of Oceanography.</a></li>
-        <li><a href="https://ieeeoes.org/technical-activities/distinguished-lecturers/distinguished-lecture-by-dr-james-v-candy-march-3-2021/" class="active" target="_blank">Recent Distinguished Lecture by Dr. James V. Candy - "Ocean Acoustic Signal Processing – A Bayesian Approach".</a></li>
-        <li><a href="https://ieeeoes.org/about-us/excom/" class="active" target="_blank">Congratulations to Venugopalan Pallayil for being elected as Vice-President Technical Activities of IEEE OES.</a></li>
-        <li><a href="https://www.facebook.com/watch/live/?v=2473971036238315" class="active" target="_blank">Talk by our member Mandar Chitre on "Underwater Acoustics in the Age of Differentiable and Probabilistic Programming" during the UComms webinar series</a></li>
-        <li><a href="https://global20.oceansconference.org/" class="active" target="_blank">Global OCEANS 2020 Singapore-Gulf Coast conference successfully concluded in Oct 2020.</a></li>
-        <li><a href="https://event.on24.com/wcc/r/2688636/19193F490CE02E00E6DF2C9C535E5EC9" class="active" target="_blank">Webinar delivered at TryEngineering Tuesday event by our member Hari Vishnu, on Oceanic Engineering.</a></li>
-        <li><a href="#committee" class="active" target="_blank">OES Singapore AGM concluded in Oct 2020 electing new committee.</a></li>
-        <li><a href="http://event.on24.com/wcc/r/2329934/BB0EA9859CC7A0308068675912C783D7?partnerref=tryenfb" class="active" target="_blank">Webinar delivered at TryEngineering Spotlight event, on careers in Oceanic Engineering, by our members Hari and Grace</a></li>
-        <!-- <li><a href="#activities" class="active" target="_blank">OES Singapore AGM in 2019 with talk by Dr. Rick Spinrad.</a></li> -->
-      </ul>
-  </section>
-
-  <section id="earthzine">
-    <h1>Recent Earthzine articles by members</h1>
-      <ul>
-        <li><a href="https://earthzine.org/un-decade-of-ocean-science-for-sustainable-development-science-communication-and-outreach-part-2-2/" class="active" target="_blank">UN Decade of Ocean Science for Sustainable development – Science communication and outreach (Part 2/2) - by Hari Vishnu</a></li>
-        <li><a href="https://earthzine.org/understanding-the-ocean-through-sound-joe-october-20-issue/" class="active" target="_blank">Understanding the Ocean through sound – JOE October 20 issue - by Hari Vishnu</a></li>
-        <li><a href="https://earthzine.org/technical-conferences-in-the-age-of-covid-oceans-2020-a-success-story/" class="active" target="_blank">Technical conferences in the age of Covid – OCEANS 2020, a success story - by Venugopalan Pallayil and Craig Peterson</a></li>
-        <li><a href="https://earthzine.org/exploring-worlds-beyond-the-coastline-oceans-2020-plenary/" class="active" target="_blank">Exploring Worlds beyond the coastline – OCEANS 2020 plenary - by Hari Vishnu</a></li>
-        <li><a href="https://earthzine.org/autonomous-systems-emerging-future-technology-panel-at-oceans-2020/" class="active" target="_blank">Autonomous Systems – Emerging & Future Technology Panel at OCEANS 2020 - by Bharath Kalyan and Fausto Ferreira</a></li>
-        <li><a href="https://earthzine.org/auv-related-research-articles-in-april-issue-of-ieee-joe/" class="active" target="_blank">AUV-related research articles in April issue of IEEE JOE - Hari Vishnu</a></li>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #01283c" id="mainNav">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">
+        <img src="images/oes.png" height=55 alt="oes logo">
+      </a>    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#news">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#articles">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#activities">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#committee">Committee</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sponsors">Sponsors</a>
+          </li>
         </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container text-left">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Mission</h2>
+            <p class="card-text">To bring the various ocean engineering skills and resources of the many
+              relevant groups in Singapore academia and industry together with a common
+              aim to create new opportunities for all involved in the underwater technology arena.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Goal</h2>
+            <p class="card-text">To network, collaborate and raise awareness of Singapore as a regional hub
+              of excellence in marine technology, focused on promoting Ocean Engineering
+              related conference and exhibition in Singapore.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header> 
+
+  <section id="news">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h1>News</h1>
+          <ul>
+            <li class="list-group-item">Recently concluded webinar on <a href="https://ieeeoes.org/technical-activities/shyam-madhusudhana-virtual-talk-machine-learning-in-marine-bioacoustics/" class="active">"Machine learning in marine bioacoustics"</a> by Shyam Madhusudhana, Cornell Lab of Ornithology, Cornell University, USA.</li>
+            <li class="list-group-item">Recently concluded Distinguished Lecture webinar on <a href="#activities" class="active" target="_blank">"Multicarrier Acoustic Communication in Doppler–limited Regimes"</a> by Milica Stojanovic, Northeastern University.</li>
+            <li class="list-group-item">Recently concluded webinar on <a href="#activities" class="active">"Introduction to machine learning in acoustics: theory and applications"</a> by Michael Bianco, Scripps Institution of Oceanography.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="articles">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h1>Recent Earthzine Articles</h1>
+          <ul>
+            <li class="list-group-item"><a href="https://earthzine.org/un-decade-of-ocean-science-for-sustainable-development-science-communication-and-outreach-part-2-2/" class="active" target="_blank">UN Decade of Ocean Science for Sustainable development – Science communication and outreach (Part 2/2)</a><br/>Hari Vishnu</li>
+            <li class="list-group-item"><a href="https://earthzine.org/understanding-the-ocean-through-sound-joe-october-20-issue/" class="active" target="_blank">Understanding the Ocean through sound – JOE October 20 issue</a><br/>Hari Vishnu</li>
+            <li class="list-group-item"><a href="https://earthzine.org/technical-conferences-in-the-age-of-covid-oceans-2020-a-success-story/" class="active" target="_blank">Technical conferences in the age of Covid – OCEANS 2020, a success story</a><br/>Venugopalan Pallayil and Craig Peterson</li>
+            <li class="list-group-item"><a href="https://earthzine.org/exploring-worlds-beyond-the-coastline-oceans-2020-plenary/" class="active" target="_blank">Exploring Worlds beyond the coastline – OCEANS 2020 plenary</a><br/>Hari Vishnu</li>
+            <li class="list-group-item"><a href="https://earthzine.org/autonomous-systems-emerging-future-technology-panel-at-oceans-2020/" class="active" target="_blank">Autonomous Systems – Emerging & Future Technology Panel at OCEANS 2020</a><br/>Bharath Kalyan and Fausto Ferreira</li>
+            <li class="list-group-item"><a href="https://earthzine.org/auv-related-research-articles-in-april-issue-of-ieee-joe/" class="active" target="_blank">AUV-related research articles in April issue of IEEE JOE</a><br/>Hari Vishnu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="activities">
-    <h1>Activities</h1>
-    <ul>
-      <li>
-        <button class="collapsible">
-          <span class="title"><b>Talk on</b> "Multicarrier Acoustic Communication in Doppler–limited Regimes"</span>
-          <span class="speaker"><b>Speaker</b>: Milica Stojanovic, Northeastern University.</span>
-        </button>
-        <div class=content>
-          <div class="subcontent">
-            <div><b>Date</b>: 25 May 2021</div>
-            <div><b>Abstract</b>: Acoustic communication systems are prone to extreme Doppler distortions, which are evident as motion-induced center frequency shifting as well as bandwidth spreading caused by random fluctuations in the propagation medium. In multi-carrier acoustic systems operating in conditions of high mobility, Doppler shifts can easily exceed carrier separation, while residual time-variation may cause inter-carrier interference. In this lecture, we overview the basic properties of acoustic communication channels and discuss custom-made Doppler compensation methods for multi-carrier systems. We demonstrate excellent performance of these methods using real data recorded on a mobile underwater acoustic channel. </div>
-            <div><b>Venue</b>: Zoom (link to be provided soon)</div>
-            <div><b>About the Speaker</b>: Milica Stojanovic graduated from the University of Belgrade, Serbia, in 1988, and received the M.S. and Ph.D. degrees in electrical engineering from Northeastern University in Boston, in 1991 and 1993, respectively. She was a Principal Scientist at the Massachusetts Institute of Technology, and in 2008 joined Northeastern University, where she is currently a Professor of Electrical and Computer Engineering. She is also a Guest Investigator at the Woods Hole Oceanographic Institution. Her research interests include digital communications theory, statistical signal processing and wireless networks, and their applications to underwater acoustic systems. Milica is a Fellow of the IEEE, an Associate Editor for the IEEE Journal of Oceanic Engineering, and the Chair of the IEEE Ocean Engineering Society’s Technical Committee for Underwater Communication, Navigation and Positioning. She also serves on the Editorial Board of the IEEE Signal Processing Magazine and has in past served on the Advisory Board of the IEEE Communication Letters, as an Associate Editor for the IEEE Transactions on Signal Processing, and Associate Editor for the IEEE Transactions on Vehicular Technology. Milica is the recipient of the 2015 IEEE/OES Distinguished Technical Achievement Award, and the 2019 IEEE WICE Outstanding Achievement Award.</div>
-=======
-          <span class="title"><b>Talk on</b> "Machine learning in marine bioacoustics"</span>
-          <span class="speaker"><b>Speaker</b>: Dr Shyam Madhusudhana, Postdoctoral Fellow, K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University, USA</span>
-        </button>
-        <div class=content>
-          <div class="subcontent">
-            <div><b>Date</b>: 22 July 2021</div>
-            <div><b>Time</b>: 8:30AM</div>
-            <div><b>Abstract</b>: Passive acoustic monitoring (PAM) methods are used for monitoring and studying a wide variety of soniferous marine fauna. The use of automatic recognition techniques has largely underpinned the successes of PAM undertakings by improving the ease and repeatability of analyses. Over the past decade, the adoption of machine learning (ML) based recognition techniques has brought about improved accuracy and reliability in mining large acoustic datasets, facilitating a suite of ecological studies, such as call-or cue-based density estimation, stock identification, or cultural transmissions. This talk will provide an overview of PAM undertakings, present a brief overview of the various automation techniques used and contrast them with modern ML-based techniques. We will present a gentle introduction to ML concepts as they apply to acoustic event recognition, and provide a hands-on demonstration of developing a ML model using real underwater acoustic recordings.</div>
-            <div><b>Venue</b>: <a href="https://uri-edu.zoom.us/j/96392816010?pwd=Z0NFazAyeS9MSEZNczl3cHo2aW1nQT09" target="_blank">Online event: TC webinar series</a></div>
-            <div><b>About the Speaker</b>: Dr Shyam Madhusudhana is a postdoctoral researcher  at the K. Lisa Yang Center for Conservation Bioacoustics (CCB) within the Cornell Lab of Ornithology. His research interests arelargely multidisciplinary as is his academic background–Bachelors in Engineering, Masters in Computer Science, and PhD in Applied Physics. He has also worked as a speech scientist for a leading Automatic Speech Recognition solutions provider. Prior to joining CCB,  he has  beena research associate atthe Centre for Marine Science and Technology in Australia, a research associate at the National Institute of Oceanography, Goa, India and a postdoctoral research fellow at the Indian Institute of Science Education and Research in Tirupati, India. His current research involves developing  deep-learning techniques for realizing effective and efficient machine-listening in the big-data realm, with applications in themonitoring of both marine and terrestrial fauna.</div>
->>>>>>> 0776bce28132ee34eda5d5b9ddc2735d5c7209ce
-          </div>
-          <!-- <div class="subcontent"><b>Abstract</b>: The evolution of marine technology is characterized by a balance of “requirements pull” and “capabilities push”.  The most obvious driver for scientific/engineering advancement is the need for enhanced performance, in terms of cost, efficiency and safety.  To this end, the traditional maritime industries and applications (e.g. oil and gas exploration, commercial fishing, marine transport, etc.) have fostered improvements in a range of areas such as dynamic positioning, acoustic sensors, imaging techniques, and data management.  In parallel, seemingly disparate technological communities are providing innovative opportunities for exploitation in marine applications.  Examples include advanced materials, genetic probes, and compressive sensing.  Coupled with developments of a “New Blue Economy”, and the role of technological disruptions, we have an exciting era for defining the trajectory of marine technology.</div> -->
-        </div>
-      </li>
-      <li>
-        <button class="collapsible">
-          <span class="title"><b>Talk on</b> "Introduction to machine learning in acoustics: theory and applications"</span>
-          <span class="speaker"><b>Speaker</b>: Dr Michael Bianco, Assistant Project Scientist, Marine Physical Laboratory, University of California San Diego (UCSD), La Jolla, CA, USA.</span>
-        </button>
-        <div class=content>
-          <div class="subcontent">
-            <div><b>Date</b>: 18 March 2021</div>
-            <div><b>Abstract</b>: Acoustic data provide scientific and engineering insights in fields ranging from biology and communications to ocean and Earth science. This talk provides a survey of the recent advances and transformative potential of machine learning (ML), including deep learning, in the field of acoustics. We first provide an overview of ML theory, then discuss several applications in acoustics, including source localization and geophysical inverse problems. With large volumes of training data, ML can discover models describing complex acoustic phenomena such as human speech and reverberation. ML in acoustics is rapidly developing with compelling results and significant future promise.</div>
-            <div><b>Venue</b>: <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjQzNDE0YTctYmUwOS00YzM1LWJiNmItMTkzNmQ5NWY1Yzhk%40thread.v2/0?context=%7b%22Tid%22%3a%22121705d3-7a2d-47b7-a4a6-c42e03144c2d%22%2c%22Oid%22%3a%22140f2534-7ef5-45fe-9a0f-939689eff816%22%7d" target="_blank">Online event: TC webinar series</a></div>
-            <div><b>About the Speaker</b>: Dr Michael Bianco is an Assistant Project Scientist with the Marine Physical Laboratory, University of California San Diego (UCSD), La Jolla, CA, USA. Mike received his Ph.D. degree in Applied Ocean Science from UCSD in 2018 with a thesis focus on machine learning in geophysical inverse problems. Prior to his Ph.D., Mike obtained the B.Sc. degree in Aeronautical and Astronautical Engineering from the Purdue University College of Engineering, West Lafayette, IN, USA, in 2007 and the M.Sc. degree in Oceanography from UCSD in 2015. From 2008–2012, he was an Engineer with Rocketdyne in Los Angeles, CA. His research interests include signal processing and machine learning theory in acoustics and geophysical inverse problems. Mike is a member of the IEEE Signal Processing Society.</div>
-          </div>
-          <!-- <div class="subcontent"><b>Abstract</b>: The evolution of marine technology is characterized by a balance of “requirements pull” and “capabilities push”.  The most obvious driver for scientific/engineering advancement is the need for enhanced performance, in terms of cost, efficiency and safety.  To this end, the traditional maritime industries and applications (e.g. oil and gas exploration, commercial fishing, marine transport, etc.) have fostered improvements in a range of areas such as dynamic positioning, acoustic sensors, imaging techniques, and data management.  In parallel, seemingly disparate technological communities are providing innovative opportunities for exploitation in marine applications.  Examples include advanced materials, genetic probes, and compressive sensing.  Coupled with developments of a “New Blue Economy”, and the role of technological disruptions, we have an exciting era for defining the trajectory of marine technology.</div> -->
-        </div>
-      </li>
-      <li>
-        <button class="collapsible">
-          <span class="title"><b>Talk on</b> "Underwater Acoustics in the Age of Differentiable and Probabilistic Programming"</span>
-          <span class="speaker"><b>Speaker</b>: Dr. Mandar Chitre, Head, Acoustic Research Laboratory, Assoc. Professor, National University of Singapore</span>
-        </button>
-        <div class=content>
-          <div class="subcontent">
-            <div><b>Date</b>: 21th December 2020</div>
-            <div><b>Venue</b>: <a href="https://www.facebook.com/watch/live/?v=2473971036238315" target="_blank">Online event: UComms webinar series, Facebook</a></div>
-          </div>
-          <!-- <div class="subcontent"><b>Abstract</b>: The evolution of marine technology is characterized by a balance of “requirements pull” and “capabilities push”.  The most obvious driver for scientific/engineering advancement is the need for enhanced performance, in terms of cost, efficiency and safety.  To this end, the traditional maritime industries and applications (e.g. oil and gas exploration, commercial fishing, marine transport, etc.) have fostered improvements in a range of areas such as dynamic positioning, acoustic sensors, imaging techniques, and data management.  In parallel, seemingly disparate technological communities are providing innovative opportunities for exploitation in marine applications.  Examples include advanced materials, genetic probes, and compressive sensing.  Coupled with developments of a “New Blue Economy”, and the role of technological disruptions, we have an exciting era for defining the trajectory of marine technology.</div> -->
-        </div>
-      </li>
-        <li>
-          <button class="collapsible">
-            <span class="title"><b>Talk on</b> "Oceanic Engineering - Try Engineering Tuesday"</span>
-            <span class="speaker"><b>Speaker</b>: Dr. Hari Vishnu, Research Fellow, Acoustic Research Laboratory</span>
-          </button>
-          <div class=content>
-            <div class="subcontent">
-              <div><b>Date</b>: September 2020</div>
-              <div><b>Venue</b>: <a href="https://event.on24.com/wcc/r/2688636/19193F490CE02E00E6DF2C9C535E5EC9" target="_blank">Online event: TryEngineering Tuesday event</a></div>
-            </div>
-            <!-- <div class="subcontent"><b>Abstract</b>: The evolution of marine technology is characterized by a balance of “requirements pull” and “capabilities push”.  The most obvious driver for scientific/engineering advancement is the need for enhanced performance, in terms of cost, efficiency and safety.  To this end, the traditional maritime industries and applications (e.g. oil and gas exploration, commercial fishing, marine transport, etc.) have fostered improvements in a range of areas such as dynamic positioning, acoustic sensors, imaging techniques, and data management.  In parallel, seemingly disparate technological communities are providing innovative opportunities for exploitation in marine applications.  Examples include advanced materials, genetic probes, and compressive sensing.  Coupled with developments of a “New Blue Economy”, and the role of technological disruptions, we have an exciting era for defining the trajectory of marine technology.</div> -->
-          </div>
-        </li>
-          <li>
-            <button class="collapsible">
-              <span class="title"><b>Talk on</b> "Careers in Oceanic engineering"</span>
-              <span class="speaker"><b>Speaker</b>: Grace Chia and Hari Vishnu</span>
+    <div class="container">
+      <h1>Activities</h1>
+      <div class="accordion" id="accordion">
+        <div class="accordion-item">
+          <h2 class="accordian-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <span class="title"><b>Talk on</b> "Machine learning in marine bioacoustics"</span>
+              <br>
+              <span class="speaker"><b>Speaker</b>: Dr Shyam Madhusudhana, Postdoctoral Fellow, K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology, Cornell University, USA</span>
             </button>
-            <div class=content>
-              <div class="subcontent">
-                <div><b>Date</b>: July 2020</div>
-                <div><b>Venue</b>: <a href="http://event.on24.com/wcc/r/2329934/BB0EA9859CC7A0308068675912C783D7?partnerref=tryenfb" target="_blank">Online event: TryEngineering spotlight</a></div>
-              </div>
-              <!-- <div class="subcontent"><b>Abstract</b>: The evolution of marine technology is characterized by a balance of “requirements pull” and “capabilities push”.  The most obvious driver for scientific/engineering advancement is the need for enhanced performance, in terms of cost, efficiency and safety.  To this end, the traditional maritime industries and applications (e.g. oil and gas exploration, commercial fishing, marine transport, etc.) have fostered improvements in a range of areas such as dynamic positioning, acoustic sensors, imaging techniques, and data management.  In parallel, seemingly disparate technological communities are providing innovative opportunities for exploitation in marine applications.  Examples include advanced materials, genetic probes, and compressive sensing.  Coupled with developments of a “New Blue Economy”, and the role of technological disruptions, we have an exciting era for defining the trajectory of marine technology.</div> -->
+          </h2>
+        </div>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="card-body">
+            <dl>
+              <dt>Date: </dt><dd>22 July 2021 (Thursday)</dd>
+              <dt>Time: </dt><dd>8:30AM SGT</dd>
+              <dt>Venue: </dt><dd>Virtual talk through Zoom</dd>
+              <dt>Abstract: </dt><dd>Passive acoustic monitoring (PAM) methods are used for monitoring and studying a wide variety of soniferous marine fauna. The use of automatic recognition techniques has largely underpinned the successes of PAM undertakings by improving the ease and repeatability of analyses. Over the past decade, the adoption of machine learning (ML) based recognition techniques has brought about improved accuracy and reliability in mining large acoustic datasets, facilitating a suite of ecological studies, such as call-or cue-based density estimation, stock identification, or cultural transmissions. This talk will provide an overview of PAM undertakings, present a brief overview of the various automation techniques used and contrast them with modern ML-based techniques. We will present a gentle introduction to ML concepts as they apply to acoustic event recognition, and provide a hands-on demonstration of developing a ML model using real underwater acoustic recordings.</dd>
+              <dt>Biography: </dt><dd>Shyam Madhusudhana is a postdoctoral researcher  at the K. Lisa Yang Center for Conservation Bioacoustics (CCB) within the Cornell Lab of Ornithology. His research interests arelargely multidisciplinary as is his academic background–Bachelors in Engineering, Masters in Computer Science, and PhD in Applied Physics. He has also worked as a speech scientist for a leading Automatic Speech Recognition solutions provider. Prior to joining CCB,  he has  beena research associate atthe Centre for Marine Science and Technology in Australia, a research associate at the National Institute of Oceanography, Goa, India and a postdoctoral research fellow at the Indian Institute of Science Education and Research in Tirupati, India. His current research involves developing  deep-learning techniques for realizing effective and efficient machine-listening in the big-data realm, with applications in themonitoring of both marine and terrestrial fauna.</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="accordion" id="accordion">
+        <div class="accordion-item">
+          <h2 class="accordian-header" id="headingTwo">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseTwo">
+              <span class="title"><b>Talk on</b> "Multicarrier Acoustic Communication in Doppler–limited Regimes"</span>
+              <br>
+              <span class="speaker"><b>Speaker</b>: Dr Milica Stojanovic, Northeastern University</span>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="card-body">
+              <dl>
+                <dt>Date: </dt><dd>25 May 2021 (Tuesday)</dd>
+                <dt>Time: </dt><dd>8:00AM EST</dd>
+                <dt>Venue: </dt><dd>Virtual talk through Zoom</dd>
+                <dt>Abstract: </dt><dd>Acoustic communication systems are prone to extreme Doppler distortions, which are evident as motion-induced center frequency shifting as well as bandwidth spreading caused by random fluctuations in the propagation medium. In multi-carrier acoustic systems operating in conditions of high mobility, Doppler shifts can easily exceed carrier separation, while residual time-variation may cause inter-carrier interference. In this lecture, we overview the basic properties of acoustic communication channels and discuss custom-made Doppler compensation methods for multi-carrier systems. We demonstrate excellent performance of these methods using real data recorded on a mobile underwater acoustic channel.</dd>
+                <dt>Biography: </dt><dd>Milica Stojanovic graduated from the University of Belgrade, Serbia, in 1988, and received the M.S. and Ph.D. degrees in electrical engineering from Northeastern University in Boston, in 1991 and 1993, respectively. She was a Principal Scientist at the Massachusetts Institute of Technology, and in 2008 joined Northeastern University, where she is currently a Professor of Electrical and Computer Engineering. She is also a Guest Investigator at the Woods Hole Oceanographic Institution. Her research interests include digital communications theory, statistical signal processing and wireless networks, and their applications to underwater acoustic systems. Milica is a Fellow of the IEEE, an Associate Editor for the IEEE Journal of Oceanic Engineering, and the Chair of the IEEE Ocean Engineering Society’s Technical Committee for Underwater Communication, Navigation and Positioning. She also serves on the Editorial Board of the IEEE Signal Processing Magazine and has in past served on the Advisory Board of the IEEE Communication Letters, as an Associate Editor for the IEEE Transactions on Signal Processing, and Associate Editor for the IEEE Transactions on Vehicular Technology. Milica is the recipient of the 2015 IEEE/OES Distinguished Technical Achievement Award, and the 2019 IEEE WICE Outstanding Achievement Award.
+              </dl>
             </div>
-          </li>
-        <li>
-          <button class="collapsible">
-            <span class="title"><b>Talk on</b> "The Push and Pull of Marine Technology"</span>
-            <span class="speaker"><b>Speaker</b>: Dr. Rick Spinrad, President of Marine Technological Society (MTS), Professor at Oregon State University</span>
-          </button>
-          <div class=content>
-            <div class="subcontent">
-              <div><b>Date</b>: 21th October 2019 (Monday)</div>
-              <div><b>Time</b>: 4PM</div>
-              <div><b>Venue</b>: <a href="https://www.tmsi.nus.edu.sg/files/TMSImap.pdf" target="_blank">S2S conference room, Tropical Marine Science Institute, National University of Singapore</a></div>
-            </div>
-            <div class="subcontent"><b>Abstract</b>: The evolution of marine technology is characterized by a balance of “requirements pull” and “capabilities push”.  The most obvious driver for scientific/engineering advancement is the need for enhanced performance, in terms of cost, efficiency and safety.  To this end, the traditional maritime industries and applications (e.g. oil and gas exploration, commercial fishing, marine transport, etc.) have fostered improvements in a range of areas such as dynamic positioning, acoustic sensors, imaging techniques, and data management.  In parallel, seemingly disparate technological communities are providing innovative opportunities for exploitation in marine applications.  Examples include advanced materials, genetic probes, and compressive sensing.  Coupled with developments of a “New Blue Economy”, and the role of technological disruptions, we have an exciting era for defining the trajectory of marine technology.</div>
-            <div class="subcontent"><b>Biography</b>: Dr. Richard W. (Rick) Spinrad is a Professor of Oceanography at Oregon State University (OSU), member of the Ocean Studies Board of the National Academies of Sciences, Engineering and Medicine, and President of the Marine Technology Society (MTS).  In 2016 he retired as Chief Scientist of the National Oceanic and Atmospheric Administration (NOAA), where he had been appointed by President Barack Obama in 2014. <br><br>
-  An internationally recognized scientist and executive with more than 35 years of experience, Dr. Spinrad was the Vice President for Research at OSU, and from 2003 until 2010 was the head of NOAA’s Office of Oceanic and Atmospheric Research and the National Ocean Service. <br><br>
-  Among his accomplishments, Dr. Spinrad was a co-lead of the White House Committee that developed the nation’s first set of ocean research priorities and oversaw the revamping of NOAA’s research enterprise. <br><br>
-  Prior to joining NOAA, Dr. Spinrad held leadership positions at the U.S. Office of Naval Research and Oceanographer of the Navy, where he was awarded the Distinguished Civilian Service Award (highest award given by the U.S. Navy to a civilian). He has held faculty appointments at three universities (OSU, US Naval Academy, and George Mason University), served as Executive Director at the Consortium for Oceanographic Research and Education, was President of Sea Tech, Inc., and worked as a research scientist (at OSU and Bigelow Lab). He also developed the National Ocean Sciences Bowl for high school students. <br><br>
-  Dr. Spinrad served as the U.S. permanent representative to the United Nations’ Intergovernmental Oceanographic Commission from 2005-2009. <br><br>
-  He is the recipient of Presidential Rank Awards from Presidents George W. Bush and Barack H. Obama. Dr. Spinrad is past president of The Oceanography Society. He is a Fellow of the American Meteorological Society, MTS, and the Institute of Marine Engineering, Science and Technology (IMarEST), and an IMarEST Chartered Marine Scientist. <br><br>
-  Dr. Spinrad received his Bachelor of Arts degree in earth and planetary sciences from The Johns Hopkins University, and his Master of Science and Doctoral degrees in oceanography from Oregon State University.
-            </div>
-          </div>
-        </li>
-      <li>
-        <button class="collapsible">
-          <span class="title"><b>Talk on</b> "Engineering the Cetacean Hearing and Telemetry (CHAT) system: Lessons learned and future efforts"</span>
-          <span class="speaker"><b>Speaker</b>: Charles Douglas Ramsey from Georgia Tech</span>
-        </button>
-        <div class=content>
-          <div class="subcontent">
-            <div><b>Date</b>: 25th September 2019 (Wednesday)</div>
-            <div><b>Time</b>: 3PM</div>
-            <div><b>Venue</b>: <a href="https://www.tmsi.nus.edu.sg/files/TMSImap.pdf" target="_blank">S2S conference room, Tropical Marine Science Institute, National University of Singapore</a></div>
-          </div>
-          <div class="subcontent"><b>Abstract</b>: Since 2010 Georgia Institute of Technology has been collaborating with marine biologists from the Wild Dolphin Project to build computers which facilitate two-way human, wild dolphin interaction. This talk will review the engineering developments which have made the underwater wearable platform possible and discuss future software and hardware efforts to improve usability and effectiveness. Our colleague Matthias also shared about his cruise in the Bahamas studying wild dolphins, which has also been captured in <a href="https://www.facebook.com/InTheDeepByQuartz/videos/159163534677979/UzpfSTczMjM4MDIyOToxMDE1OTQ5MTI0NTcxNTIzMA/?q=Hari%20Vishnu%20dolphin%20&epa=SEARCH_BOX" target="_blank">online documentaries</a>.</div>
-          <div class="subcontent"><img src="images/activities/2019/charles_talk_25Sept2019_1.jpg" alt="charles talk 25Sept2019 1"/></div>
-          <div class="subcontent"><img src="images/activities/2019/charles_talk_25Sept2019_2.jpg" alt="charles talk 25Sept2019 2"/></div>
-        </div>
-      </li>
-      <li>
-        <button class="collapsible">
-          <span class="title"><b>Talk on</b> "Acoustic Doppler Current Profilers and their applications"</span>
-          <span class="speaker"><b>Speaker</b>: Dr. Sairajan Sarangapani, Director of Research and Development at Rowe Technologies Inc.</span>
-        </button>
-        <div class=content>
-          <div class="subcontent">
-            <div><b>Date</b>: 30th April 2019 (Tuesday)</div>
-            <div><b>Time</b>: 3PM</div>
-            <div><b>Venue</b>: <a href="https://www.tmsi.nus.edu.sg/files/TMSImap.pdf" target="_blank">S2S conference room, Tropical Marine Science Institute, National University of Singapore</a></div>
-          </div>
-          <div class="subcontent"><b>Abstract</b>: Acoustic Doppler Current Profilers (ADCP) have been used for over past 35 years to measure the relative velocity measurements in rivers and ocean environments. ADCPs transmit high frequency sound underwater in a narrow beam and receive the sound scattered off planktons and other floating objects. The received signal is processed and the Doppler frequency is calculated. There is a multi-disciplinary problem in the transmission and reception of sound underwater due to the involvement of multiple energy conversions and the solution has to include the results of different disciplines such as analog and digital electrical signal processing, electronic communication, electromechanical conversion, vibrational analysis and acoustic radiation. We take into account the different energy conversions occurring in the system to develop and manufacture ADCPs that are widely used for measuring water velocities at different water depths. This presentation will be aimed to introduce the ADCP with its applications and also discuss about the new dual frequency ADCP/DVL.</div>
-          <div class="subcontent"><b>Biography</b>: Sairajan Sarangapani obtained his Bachelor of Science degree in Electronics and communication Engineering at University of Madras in 2003, M.S. degree in Ocean Engineering at the University of Rhode Island in 2006, and the Ph.D degree in electrical engineering at University of Massachusetts in 2012.  Dr. Sarangapani`s has 15 years of experience in the fields of electromechanical and electroacoustical acoustic transducers, analytical and numerical modeling of piezoelectric transducers, design of high frequency and low frequency underwater acoustic transducers, sonar signal processing and measurements of currents underwater using ADCP. Currently he is working as Research and Development Director at Rowe technologies.</div>
-          <div class="subcontent"><img src="images/activities/2019/sairajan_talk_30April2019.jpg" alt="sairajan talk 30April2019"/></div>
-        </div>
-      </li>
-      <li>
-        <button class="collapsible">
-          <span class="title"><b>OES Social Gathering 2019</b></span>
-          <span>OES had its annual social networking get-together and SAUVC 2019 celebration dinner on the 22nd March at PocoLoco Microbrewery.</span>
-        </button>
-        <div class=content>
-          <div class="subcontent">
-            <img src="images/activities/2019/oes_social_gathering_1.jpg" alt="oes social gathering 1"/>
-            <img src="images/activities/2019/oes_social_gathering_2.jpg" alt="oes social gathering 2"/>
           </div>
         </div>
-      </li>
-      <li>
-        <button class="collapsible">
-        <span  class="title"><b>Singapore AUV Challenge (SAUVC) 2019</b></span>
-        <span>Singapore AUV Challenge was held from March 8-11 at Singapore Polytechnic. 37 teams registered, of which 32 teams made it to the competition. 16 teams qualified for the competition.</span>
-        </button>
-        <div class=content>
-        <div class="subcontent">More details can be found at the <a href="https://sauvc.org/"  target="_blank">SAUVC website</a>.</div>
-        <div class="subcontent">
-          <img src="images/activities/2019/sauvc_1.jpg" alt="sauvc 1"/>
-          <img src="images/activities/2019/sauvc_2.jpg" alt="sauvc 2"/>
-          <img src="images/activities/2019/sauvc_3.jpg" alt="sauvc 3"/>
-          <img src="images/activities/2019/sauvc_4.jpg" alt="sauvc 4"/>
-          <img src="images/activities/2019/sauvc_5.jpg" alt="sauvc 5"/>
+      </div>
+      <div class="accordion" id="accordion">
+        <div class="accordion-item">
+          <h2 class="accordian-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <span class="title"><b>Talk on</b> "Introduction to machine learning in acoustics: theory and applications"</span>
+              <br>
+              <span class="speaker"><b>Speaker</b>: Dr Michael Bianco, Assistant Project Scientist, Marine Physical Laboratory, University of California San Diego (UCSD), La Jolla, CA, USA.</span>
+            </button>
+          </h2>
         </div>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="card-body">
+            <dl>
+              <dt>Date: </dt><dd>18 March 2021 (Thursday)</dd>
+              <dt>Venue: </dt><dd><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjQzNDE0YTctYmUwOS00YzM1LWJiNmItMTkzNmQ5NWY1Yzhk%40thread.v2/0?context=%7b%22Tid%22%3a%22121705d3-7a2d-47b7-a4a6-c42e03144c2d%22%2c%22Oid%22%3a%22140f2534-7ef5-45fe-9a0f-939689eff816%22%7d" target="_blank">Online event: TC webinar series</a></dd>
+              <dt>Abstract: </dt><dd>Acoustic data provide scientific and engineering insights in fields ranging from biology and communications to ocean and Earth science. This talk provides a survey of the recent advances and transformative potential of machine learning (ML), including deep learning, in the field of acoustics. We first provide an overview of ML theory, then discuss several applications in acoustics, including source localization and geophysical inverse problems. With large volumes of training data, ML can discover models describing complex acoustic phenomena such as human speech and reverberation. ML in acoustics is rapidly developing with compelling results and significant future promise.</dd>
+              <dt>Biography: </dt><dd>Michael Bianco is an Assistant Project Scientist with the Marine Physical Laboratory, University of California San Diego (UCSD), La Jolla, CA, USA. Mike received his Ph.D. degree in Applied Ocean Science from UCSD in 2018 with a thesis focus on machine learning in geophysical inverse problems. Prior to his Ph.D., Mike obtained the B.Sc. degree in Aeronautical and Astronautical Engineering from the Purdue University College of Engineering, West Lafayette, IN, USA, in 2007 and the M.Sc. degree in Oceanography from UCSD in 2015. From 2008–2012, he was an Engineer with Rocketdyne in Los Angeles, CA. His research interests include signal processing and machine learning theory in acoustics and geophysical inverse problems. Mike is a member of the IEEE Signal Processing Society.</dd>
+            </dl>
+          </div>
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   </section>
 
   <section id="committee">
-    <h1>Committee</h1>
-    <div class=swipe>
-    <figure>
-      <img src="images/committee/bharath.png" alt="bharath"/>
-      <figcaption>
-        <p class="name">Bharath Kalyan</p>
-        <p class="position">Chair</p>
-      </figcaption>
-    </figure>
-      <figure>
-        <img src="images/committee/hari.png" alt="hari"/>
-        <figcaption>
-          <p class="name">Hari Vishnu</p>
-          <p class="position">Vice Chair</p>
-        </figcaption>
-        <!--<figcaption class="position">Chair</figcaption>-->
-      </figure>
-      <figure>
-        <img src="images/committee/yuenmin.png" alt="yuen min"/>
-        <figcaption>
-          <p class="name">Yuen Min Too</p>
-          <p class="position">Secretary</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="images/committee/teongbengkoay.jpg" alt="Koay Teong Beng"/>
-          <figcaption>
-            <p class="name">Koay Teong Beng</p>
-            <p class="position">Treasurer</p>
-          </figcaption>
-      </figure>
-      <figure>
-        <img src="images/committee/chicheng.png" alt="chi cheng"/>
-        <figcaption>
-          <p class="name">Chi Cheng</p>
-          <p class="position"></p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="images/committee/rajat.jpg" alt="Rajat Mishra"/>
-        <figcaption>
-          <p class="name">Rajat Mishra</p>
-          <p class="position">Committee Member</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="images/committee/venu.jpg" alt="Venugopalan Pallayil"/>
-        <figcaption>
-          <p class="name">Venugopalan Pallayil</p>
-          <p class="position">Committee Member</p>
-        </figcaption>
-      </figure>
+    <div class="container">
+      <h1>Committee</h1>
+        <div id="carouselControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="row justify-content-md-center">
+                <div class="col-auto">
+                  <div class="card">
+                    <img src="./images/committee/bharath.png" class="card-img-top" style="width: 14rem; height: 18rem;" alt="bharath">
+                    <div class="card-body">
+                      <h5 class="card-title">Bharath Kalyan</h5>
+                      <p class="card-text">Chair</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="card">
+                    <img src="./images/committee/hari.png" class="card-img-top" style="width: 14rem; height: 18rem;" alt="hari">
+                    <div class="card-body">
+                      <h5 class="card-title">Hari Vishnu</h5>
+                      <p class="card-text">Vice Chair</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-md-center">
+                <div class="col-auto">
+                  <div class="card">
+                    <img src="./images/committee/yuenmin.png" class="card-img-top img-fluid" style="width: 14rem; height: 18rem;" alt="bharath">
+                    <div class="card-body">
+                      <h5 class="card-title">Too Yuen Min</h5>
+                      <p class="card-text">Secretary</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="card">
+                    <img src="./images/committee/teongbengkoay.jpg" class="card-img-top img-fluid" style="width: 14rem; height: 18rem;" alt="hari">
+                    <div class="card-body">
+                      <h5 class="card-title">Koay Teong Beng</h5>
+                      <p class="card-text">Treasurer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-md-center">
+                <div class="col-auto">
+                  <div class="card">
+                    <img src="./images/committee/chicheng.png" class="card-img-top img-fluid" style="width: 14rem; height: 18rem;" alt="bharath">
+                    <div class="card-body">
+                      <h5 class="card-title">Chi Cheng</h5>
+                      <p class="card-text">Committee Member</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="card">
+                    <img src="./images/committee/rajat.jpg" class="card-img-top img-fluid" style="width: 14rem; height: 18rem;" alt="hari">
+                    <div class="card-body">
+                      <h5 class="card-title">Rajat Mishra</h5>
+                      <p class="card-text">Committee Member</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-md-center">
+                <div class="col-auto">
+                  <div class="card">
+                    <img src="./images/committee/venu.jpg" class="card-img-top img-fluid" style="width: 14rem; height: 18rem;" alt="bharath">
+                    <div class="card-body">
+                      <h5 class="card-title">Venugopalan Pallayil</h5>
+                      <p class="card-text">Committee Member</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
     </div>
   </section>
 
   <section id="sponsors">
-    <h1>Sponsors</h1>
-    <h2>SAUVC 2019 sponsors</h2>
-    <div>
-      <img src="images/sponsors/sponsors-onrg.png" alt="onrg"/>
-      <img src="images/sponsors/sponsors-subCtech.png" alt="subCtech"/>
-      <img src="images/sponsors/sponsors-bluerobotics.png" alt="blue robotics"/>
-      <img src="images/sponsors/sponsors-nortek.png" alt="nortek"/>
-      <img src="images/sponsors/sponsors-sterlingsolutions.png" alt="sterling solutions"/>
-      <img src="images/sponsors/sponsors-leefoundation.png" alt="lee foundation"/>
-      <img src="images/sponsors/sponsors-ieeeoes.png" alt="ieee oes"/>
-      <img src="images/sponsors/sponsors-tmsi.png" alt="tmsi"/>
-    </div>
-  <h2>Sponsor and Co-organizer</h2>
-    <div>
-      <img src="images/sponsors/sponsors-nus.png" alt="nus"/>
-      <img src="images/sponsors/sponsors-sp.png" alt="sp"/>
-    </div>
-  <h2>Some sponsors of our past events include</h2>
-    <div>
-      <img src="images/sponsors/sponsors-sonardyne.png" alt="sonardyne"/>
-      <img src="images/sponsors/sponsors-SGInnovate.png" alt="SGInnovate"/>
-      <img src="images/sponsors/sponsors-atlaselektronik.png" alt="atlas electronik"/>
-      <img src="images/sponsors/sponsors-thales.png" alt="thales"/>
-      <img src="images/sponsors/sponsors-stelectronics.png" alt="st electronics"/>
-      <img src="images/sponsors/sponsors-sutd.png" alt="sutd"/>
-      <img src="images/sponsors/sponsors-seaandland.png" alt="sea and land technologies"/>
+    <div class="container">
+      <h1>Sponsors
+        <h2 class="text-center">SAUVC 2019 sponsors</h2>
+          <div class="row row-cols-4 align-items-center">
+            <div class="col">
+              <img src="./images/sponsors/sponsors-onrg.png" class="img-fluid" alt="onrg">
+            </div>
+            <div class="col">
+              <img src="images/sponsors/sponsors-subCtech.png" class="img-fluid" alt="subCtech">
+            </div>
+            <div class="col">
+              <img src="images/sponsors/sponsors-bluerobotics.png" class="img-fluid" alt="blue robotics">
+            </div>
+            <div class="col">
+              <img src="images/sponsors/sponsors-nortek.png" class="img-fluid" alt="nortek">
+            </div>
+            <div class="col">
+              <img src="images/sponsors/sponsors-sterlingsolutions.png" class="img-fluid" alt="sterling solutions">
+            </div>
+            <div class="col">
+              <img src="images/sponsors/sponsors-leefoundation.png" class="img-fluid" alt="lee foundation">
+            </div>
+            <div class="col">
+              <img src="images/sponsors/sponsors-ieeeoes.png" class="img-fluid" alt="ieee oes">
+            </div>
+            <div class="col">
+              <img src="images/sponsors/sponsors-tmsi.png" class="img-fluid" alt="tmsi">
+            </div>
+          </div>
+        </h2>
+        <h2 class="text-center">Sponsor and Co-organizer</h2>
+        <div class="row row-cols-4 align-items-center">
+          <div class="col">
+            <img src="images/sponsors/sponsors-nus.png" class="img-fluid" alt="nus">
+          </div>
+          <div class="col">
+            <img src="images/sponsors/sponsors-sp.png" class="img-fluid" alt="sp">
+          </div>
+        </div>
+        <h2 class="text-center">Some sponsors of our past events include</h2>
+        <div class="row row-cols-4 align-items-center">
+          <div class="col">
+            <img src="images/sponsors/sponsors-sonardyne.png" class="img-fluid" alt="sonardyne">
+          </div>
+          <div class="col">
+            <img src="images/sponsors/sponsors-SGInnovate.png" class="img-fluid" alt="SGInnovate">
+          </div>
+          <div class="col">
+            <img src="images/sponsors/sponsors-atlaselektronik.png" class="img-fluid" alt="atlas electronik">
+          </div>
+          <div class="col">
+            <img src="images/sponsors/sponsors-thales.png" class="img-fluid" alt="thales">
+          </div>
+          <div class="col">
+            <img src="images/sponsors/sponsors-stelectronics.png" class="img-fluid" alt="st electronics">
+          </div>
+          <div class="col">
+            <img src="images/sponsors/sponsors-sutd.png" class="img-fluid" alt="sutd">
+          </div>
+          <div class="col">
+            <img src="images/sponsors/sponsors-seaandland.png" class="img-fluid" alt="sea and land technologies">
+          </div>
+        </div>
+      </h1>
     </div>
   </section>
 
-  <section id="useful_links">
-    <h1>Useful links</h1>
-    <ul>
-      <li><a href="https://www.ieee.org" target="_blank">IEEE Main</a></li>
-      <li><a href="https://ieeeoes.org/" target="_blank">IEEE Oceanic Engineering Society</a></li>
-      <li><a href="https://ieeesingapore.org" target="_blank">IEEE Singapore Section</a></li>
-      <li><a href="https://sauvc.org" target="_blank">Singapore AUV Challenge</a></li>
-      <li><a href="https://www.dso.org.sg" target="_blank">DSO National Laboratories</a></li>
-      <li><a href="https://arl.nus.edu.sg/twiki6/bin/view/ARL" target="_blank">Acoustics Research Laboratory, National University of Singapore</a></li>
-      <li><a href="https://www.tmsi.nus.edu.sg" target="_blank">Tropical Marine Science Institute</a></li>
-    </ul>
-  </section>
-
-  <footer id="contact_us">
-    <div class="ieee"><img class="logo-image" src="images/ieee.png" alt="ieee logo"></div>
-    <ul class="menu">
-      <li><a href="mailto:ieeeoessingapore@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-      <li><a href="https://www.facebook.com/ieeeoessg" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-      <li><a href="https://twitter.com/ieeeoessg" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-    </ul>
+  <footer class="text-white" style="background-color: #01283c">
+    <div class="container p-4">
+      <div class="mb-0 text-center ">
+        <a class="btn btn-outline-light btn-floating m-1" href="mailto:ieeeoessingapore@gmail.com" role="button">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/ieeeoessg" role="button">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/ieeeoessg" role="button">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <div class="mt-4">
+        <h5 class="text-uppercase">Useful Links</h5>
+        <ul class="list-unstyled mb-0">
+          <li><a href="https://ieeeoes.org/" target="_blank" class="text-decoration-none text-white">IEEE Oceanic Engineering Society</a></li>
+          <li><a href="https://ieeesingapore.org" target="_blank" class="text-decoration-none text-white">IEEE Singapore Section</a></li>
+          <li><a href="https://sauvc.org" target="_blank" class="text-decoration-none text-white">Singapore AUV Challenge</a></li>
+          <li><a href="https://www.dso.org.sg" target="_blank" class="text-decoration-none text-white">DSO National Laboratories</a></li>
+          <li><a href="https://arl.nus.edu.sg/twiki6/bin/view/ARL" target="_blank" class="text-decoration-none text-white">Acoustics Research Laboratory, National University of Singapore</a></li>
+          <li><a href="https://www.tmsi.nus.edu.sg" target="_blank" class="text-decoration-none text-white">Tropical Marine Science Institute</a></li>
+        </ul>
+    </div>
+    </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
